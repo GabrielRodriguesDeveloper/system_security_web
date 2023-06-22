@@ -1,6 +1,7 @@
 .confirm-button {
     background-color: #3D45F5;
     color: white;
+    border: none;
 }
 
 label{
