@@ -1,0 +1,9 @@
+.confirm-button {
+    background-color: #3D45F5;
+    color: white;
+}
+
+label{
+    display: flex;
+    justify-content: left;
+}

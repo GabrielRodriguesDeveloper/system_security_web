@@ -1,0 +1,20 @@
+body {
+    background-color: #08074F;
+}
+
+
+.title {
+    color: white;
+}
+
+.sub-title{
+    font-size: 150%;
+}
+
+.back_button {
+    background-color: white;
+}
+
+label {
+    color: white;
+}
