@@ -1,0 +1,34 @@
+#Ss{
+
+    font-size: 55px;
+}
+#login{
+
+    margin-bottom: 6em;
+}
+
+.text{
+    position: relative;
+    left: 14%;
+    font-size: 20px;
+}
+label{
+    display: flex;
+    justify-content: left;
+}
+input{
+    border: none;
+    position: relative;
+    left: 14%;
+}
+
+button{
+    border: none;
+    color: white;
+    background-color:  #3D45F5;
+}
+
+#back{
+    background-color: white;
+    
+}
