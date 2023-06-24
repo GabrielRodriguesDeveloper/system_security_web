@@ -1,0 +1,66 @@
+button{
+    border-radius: 5px;
+    border: none;
+}
+
+#user-icon{
+    border-radius: 15px;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+}
+
+#welcome-message{
+    font-size: 120%;
+}
+
+#your-groups-message{
+    font-size: 120%;
+}
+
+#group-name-message{
+    margin-left: 10%;
+
+}
+
+.online-notification{
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+#group-card{
+    background-color: #6564D0;
+    border-radius: 15px;
+}
+
+.card-title{
+    margin: 0;
+}
+
+#user-image{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+#exit-group-button{
+    border-radius: 20px;
+    background-color: #3D45F5;
+    color: white;
+    width: 40%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#layout{
+    width: 50%;
+}
+
+#create-group-button{
+    color: white;
+    margin-top: 5%;
+}

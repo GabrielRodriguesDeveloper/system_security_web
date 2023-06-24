@@ -28,5 +28,14 @@ label {
 .input{
     border: none;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
-
 }
+
+p{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+
