@@ -3,11 +3,18 @@ button{
     border: none;
 }
 
+#menu {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
 #user-icon{
     border-radius: 15px;
     padding: 0;
     position: relative;
     display: inline-block;
+    background: none;
 }
 
 #welcome-message{
@@ -16,20 +23,23 @@ button{
 
 #your-groups-message{
     font-size: 120%;
+    font-size: 150%;
+    font-weight: bold;
 }
 
 #group-name-message{
     margin-left: 10%;
-
+    font-size: 150%;
+    font-weight: bold;
 }
 
 .online-notification{
     position: absolute;
-    bottom: -5px;
-    right: -5px;
+    bottom: 58px;
+    right: 60px;
     width: 15px;
     height: 15px;
-    background-color: green;
+    background-color: #15FF10;
     border-radius: 50%;
 }
 
@@ -57,10 +67,40 @@ button{
 }
 
 #layout{
-    width: 50%;
+    width: 100%;
 }
 
 #create-group-button{
     color: white;
     margin-top: 5%;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.icon-container {
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    width: 40px;
+    padding: 5px;
+}
+
+.icon {
+    width: 80%;
+    height: auto;
 }
