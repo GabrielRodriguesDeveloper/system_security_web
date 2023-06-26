@@ -2,8 +2,7 @@ class SignUP {
     constructor(){
         this.form = document.querySelector("form");
         this.hasEventListener = false;
-        this.lastId = 0;
-        this.users = {}
+        this.lastId = localStorage.getItem("lastId") || 0;
         this.user = null;
     }
 
@@ -24,11 +23,10 @@ class SignUP {
                     "password" : password,
                     "phone" : phone,
                 }
-                console.log(this.lastId);
-                this.users[this.lastIdid] = this.user;
                 localStorage.setItem(this.lastId, JSON.stringify(this.user));
                 this.lastId++;
-                window.location.href = "../views/group_page.html";
+                localStorage.setItem("lastId", this.lastId);
+                window.location.href = "../views/group_page.html"
             });
             this.hasEventListener = true;
         }
