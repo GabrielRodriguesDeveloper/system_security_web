@@ -1,0 +1,35 @@
+main {
+    background-color: #6564D0;
+    border-radius: 15px;
+
+    width: 100%;
+}
+
+main #group-name-message {
+    margin: 0;
+}
+
+footer .group-item {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+    background-color: #ffffff;
+
+    margin: 5px;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+footer .group-item:hover {
+    background-color: #6564D0;
+}
+
+footer #active {
+    background-color: #6564D0;
+}
+
+.icon-container {
+    cursor: pointer;
+}

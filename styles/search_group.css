@@ -1,0 +1,35 @@
+.back_button{
+    border: none;
+    position: absolute;
+    left: 93%;
+    top: 5%;
+}
+
+.search_bar{
+    border: none;
+    top: 5%;
+
+}
+
+#gp_img_top{
+    border: none;
+    background-color: white;
+    height: 25px;
+    width: 20;
+}
+#gp_img{
+    border: none;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+}
+
+#lupa{
+    position: relative;
+    left: 11.5em;
+}
+
+.p{
+    margin-left: 1em;
+    font-size: 30px;
+}

@@ -2,6 +2,10 @@ body {
     background-color: #08074F !important;
 }
 
+button {
+    border-radius: 5px;
+    border: none;
+}
 
 .title {
     color: white;
@@ -48,4 +52,61 @@ a{
 .modal-body,
 .modal-footer {
     border: none;
+}
+
+#menu {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+#user-icon{
+    border-radius: 15px;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    background: none;
+}
+
+#welcome-message{
+    font-size: 120%;
+}
+
+.online-notification{
+    position: absolute;
+    bottom: 58px;
+    right: 60px;
+    width: 15px;
+    height: 15px;
+    background-color: #15FF10;
+    border-radius: 50%;
+}
+
+#group-name-message{
+    margin-left: 10%;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.icon-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    width: 40px;
+    padding: 5px;
+}
+
+.icon {
+    width: 80%;
+    height: auto;
 }
