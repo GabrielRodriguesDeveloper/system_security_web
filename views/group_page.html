@@ -68,7 +68,7 @@
                     <button id="exit-group-button" class="button mt-5 m-1">
                         Exit Group
                     </button>
-                    <a id="create-group-button" href="#" class="m-1">
+                    <a id="create-group-button" data-bs-toggle="modal" data-bs-target="#createGroupModal" href="#" class="m-1">
                         Create Group
                     </a>
                 </div>
@@ -77,16 +77,33 @@
     </div>
     <div id="addGroupModal" class="modal">
         <div class="modal-dialog">
-            <div id="addGroupContentModal" class="modal-content">
+            <div class="modal-content contentModal">
                 <div class="modal-header" data-bs-theme="dark">
-                    <h1 id="addGroupTitleModal" class="modal-title">Group Key Code:</h1>
+                    <h1 class="modal-title titleModal">Group Key Code:</h1>
                     <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body d-flex justify-content-center">
-                    <input id="addGroupInput" type="text" name="addGroupInput" class="input rounded-3 d-flex text-center">
+                    <input type="text" name="addGroupInput" class="input rounded-3 d-flex text-center inputModal">
                 </div>
                 <div class="modal-footer d-flex justify-content-center">
-                    <button id="addGroupButtonModal" class="button confirm-button">Confirm</button>
+                    <button class="button confirm-button buttonModal">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="createGroupModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content contentModal">
+                <div class="modal-header" data-bs-theme="dark">
+                    <h1 class="modal-title titleModal">Group Name:</h1>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body d-flex justify-content-center">
+                    <input type="text" name="createGroupInput" class="input rounded-3 d-flex text-center inputModal">
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="button confirm-button buttonModal">Confirm</button>
                 </div>
             </div>
         </div>
