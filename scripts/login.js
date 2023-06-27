@@ -1,4 +1,8 @@
 const validateLogin = (email, password) => {
+    const errorMessage = document.getElementById("errorLoginAlert");
+
+    errorMessage.style.display = "none";
+
     for(let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
         if(key != "lastId"){
@@ -6,11 +10,12 @@ const validateLogin = (email, password) => {
             if(email === user.email & password === user.password){
                 console.log("Login Válido");
                 console.log(user.email + " " + user.password);
+                window.location.href = "../views/group_page.html"
                 return;
             }
         }
-
     }
+    errorMessage.style.display = "block";
 }
 
 
