@@ -1,3 +1,8 @@
+.back_button:hover{
+    background-color:#3D45F5 ;
+    
+}
+
 .back_button{
     border: none;
     position: absolute;
@@ -11,11 +16,20 @@
 
 }
 
+#gp_img_top:hover{
+    background-color:#3D45F5 ;
+}
+
 #gp_img_top{
+    margin-left: 1em;
     border: none;
     background-color: white;
     height: 25px;
     width: 20;
+}
+
+#gp_img:hover{
+    background-color:#3D45F5 ;
 }
 #gp_img{
     border: none;
@@ -25,11 +39,18 @@
 }
 
 #lupa{
+
+    border: none;
     position: relative;
-    left: 11.5em;
+    left: 39.5em;
 }
 
 .p{
     margin-left: 1em;
     font-size: 30px;
+}
+
+#input{
+
+    width: 40em;
 }
