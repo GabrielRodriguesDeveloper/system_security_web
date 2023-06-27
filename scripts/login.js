@@ -5,11 +5,10 @@ const validateLogin = (email, password) => {
 
     for(let i = 0; i < localStorage.length; i++) {
         const key = localStorage.key(i);
-        if(key != "lastId"){
+        if(key != "lastId" & key != "userLogged"){
             const user = JSON.parse(localStorage.getItem(key));
             if(email === user.email & password === user.password){
-                console.log("Login Válido");
-                console.log(user.email + " " + user.password);
+                localStorage.setItem("userLogged", JSON.stringify(user));
                 window.location.href = "../views/group_page.html"
                 return;
             }

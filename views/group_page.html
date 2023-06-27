@@ -9,6 +9,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/index.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/group_screen.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../styles/buttons.css'>
+    <script src="../scripts/group_page.js" defer></script>
     
 </head>
 <body>
@@ -17,11 +18,11 @@
             <div id="user-icon" class="container-item">
                 <img src="../images/user_icon.svg" alt="User button">
                 <span class="online-notification"></span>
-                <p id="welcome-message" class="mt-1">Welcome, User!</p>
+                <p id="welcome-message" class="mt-1"></p>
             </div>
             <div class="container-item">
-                <button type="button">
-                    <img src="../images/back.svg" alt="Back button">
+                <button type="button" id="logout-button">
+                    <img src="../images/logout_icon.png" alt="Logout button" id="logoutButton">
                 </button>
             </div>
         </div>
